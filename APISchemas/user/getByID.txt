@@ -1,0 +1,31 @@
+GET http://localhost:5000/api/user/1 HTTP/1.1
+content-type: application/json
+
+#Return data
+{
+  "status": "ok",
+  "data": [
+    {
+      "id": 1,
+      "firstName": "sample",
+      "lastName": null,
+      "email": "test",
+      "password": "9ba1f63365a6caf66e46348f43cdef956015bea997adeb06e69007ee3ff517df10fc5eb860da3d43b82c2a040c931119d2dfc6d08e253742293a868cc2d82015",
+      "role": "user",
+      "activationToken": "17bf04b77db4e337a29c73cfe7a5b45834639d8d",
+      "recoveryToken": null,
+      "createdAt": "2021-08-16T16:54:10.069Z",
+      "updatedAt": "2021-08-16T16:54:10.069Z"
+    }
+ ]
+}
+# Retunr Empty
+{
+  "status": "ok",
+  "data": []
+}
+# Return Error
+{
+  "status": "Error",
+  "data": "Error authenticate"
+}

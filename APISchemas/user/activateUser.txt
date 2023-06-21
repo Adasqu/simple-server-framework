@@ -1,0 +1,2 @@
+GET http://localhost:5000/api/user/activate/b766b0294b051382f0a5e5f7e17611d39a936e73 HTTP/1.1
+content-type: application/json
