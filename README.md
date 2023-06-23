@@ -1,6 +1,6 @@
 # **Simple Server Framework**
 
-Simple and fast framework to serve API with Fastify and some usefull plugins.
+Simple and fast framework to serve API with Fastify and some usefull plugins to create simple API webserwer (and some simple front).
 
 ## **TODO LIST**
 
@@ -10,10 +10,10 @@ Simple and fast framework to serve API with Fastify and some usefull plugins.
   - [x] Database connection
   - [x] Serve static files (styles.css, images etc)
   - [x] Authentication
-  - [x] Authorization
+  - [x] Authorization (not tested)
   - [x] Mailer
 - [ ] Optional modules
-  - [x] Firebase
+  - [x] Firebase (not tested)
   - [x] WebSocket
 
 ## **System directory and structure**
